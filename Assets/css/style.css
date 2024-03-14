@@ -1,21 +1,29 @@
+*{
+    background-color: #f3dddd;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 h2 {
     font-size: 50px;
     font-weight: 600;
 }
 
+nav ul li {
+    display: inline;
+    text-align: right;
+}
 
 p {
     background-color: #bae09b;
     font-size: 20px;
 }
 
+
+img {
+    position: relative;
+    left: 250px;
+}
+
 #h1-heading {
     font-size:70px;
     font-weight: 800;
-}
-#portfolio-image {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    right: 10000px;
 }
