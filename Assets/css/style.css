@@ -10,6 +10,7 @@ h2 {
 nav ul li {
     display: inline;
     text-align: right;
+    justify-content: right;
 }
 
 p {
@@ -18,9 +19,11 @@ p {
 }
 
 
-img {
+#portfolioimg {
     position: relative;
-    left: 250px;
+    left: 450px;
+    width: 35%;
+    height: 35%;
 }
 
 #h1-heading {
