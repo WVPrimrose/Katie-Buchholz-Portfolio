@@ -13,12 +13,17 @@ h2 {
     font-weight: 400;
 }
 
+nav ul {
+    padding: 20px;
+    background-color:#6f00ff;
+}
+
 nav ul li {
     display: inline;
     text-align: right;
     justify-content: space-between;
     position: relative;
-    left: 800px;
+    left: 875px;
     font-size: 35px;
     border: 2px #000000 solid;
     padding: 10px;
