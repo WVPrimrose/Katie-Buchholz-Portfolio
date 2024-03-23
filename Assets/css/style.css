@@ -42,6 +42,19 @@ p {
     font-size: 20px;
 }
 
+section img {
+    display: block;
+    position: relative;
+    left: 300px;
+    border: 5px #000000 solid;
+    margin: 40px;
+}
+
+
+.bigimg {
+    width:50%;
+    height:50%;
+}
 
 #portfolioimg {
     position: relative;
@@ -50,12 +63,8 @@ p {
     height: 35%;
 }
 
-#livewebsite {
-    width: 50%;
-    height: 50%;
-}
 
-#orchestraimg{
+#DMLimg {
     width: 50%;
     height: 50%;
 }
