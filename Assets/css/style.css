@@ -4,18 +4,16 @@
 }
 
 h1 {
-    font: size 70px;;
-    font-weight: 800;
-}
-
-h2 {
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 60px;
+    font-weight: 500;
+    background-color:#d4b3ff;
 }
 
 nav ul {
     padding: 20px;
     background-color:#6f00ff;
+    position: relative;
+    bottom: 40px;
 }
 
 nav ul li {
@@ -35,8 +33,14 @@ nav ul li a {
     color: #000000;
 }
 
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+
 p {
-    background-color: #bae09b;
     font-size: 20px;
 }
 
