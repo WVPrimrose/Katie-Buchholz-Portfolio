@@ -13,15 +13,15 @@ h2 {
     font-weight: 400;
 }
 
-
-
 nav ul li {
     display: inline;
     text-align: right;
     justify-content: space-between;
     position: relative;
-    left: 750px;
-    font-size: 30px;
+    left: 800px;
+    font-size: 35px;
+    border: 2px #000000 solid;
+    padding: 10px;
 }
 
 nav ul li a {
