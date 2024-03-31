@@ -43,17 +43,33 @@ p {
 }
 
 section img {
-    display: block;
     position: relative;
-    left: 300px;
     border: 5px #000000 solid;
     margin: 40px;
+    width: 30%;
+    height: 30%;
 }
 
-
 .bigimg {
+    display:block;
     width:50%;
     height:50%;
+    position:relative;
+    left: 300px;
+}
+
+.smallimg {
+    position: relative;
+    justify-content: space-between;
+    left: 100px;
+    margin-right: 200px;
+}
+
+.contact-links{
+position: relative;
+padding-left: 300px;
+justify-content: space-between;
+font-size: 20px;
 }
 
 #portfolioimg {
@@ -61,10 +77,4 @@ section img {
     left: 450px;
     width: 35%;
     height: 35%;
-}
-
-
-#DMLimg {
-    width: 50%;
-    height: 50%;
 }
