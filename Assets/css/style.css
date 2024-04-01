@@ -1,5 +1,5 @@
 *{
-    background-color: #f3dddd;
+    background-color: #e4e4e4;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -84,8 +84,8 @@ margin: 20px;
 color: #6f00ff;
 }
 
-.contact-links:hover{
-    background-color: #ffffff
+.contact-links:hover {
+    background-color: #ffd5a5
 }
 
 #portfolioimg {
