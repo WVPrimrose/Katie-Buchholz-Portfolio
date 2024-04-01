@@ -170,3 +170,22 @@ nav ul li {
         left: 250px;
     }    
 }
+
+@media screen and (max-width: 576px) {
+header h1 {
+    position: relative;
+    left: 75px;
+}
+
+nav ul,
+nav ul li {
+        display: block;
+        position: relative;
+        left: 80px
+    }
+    #portfolioimg {
+        position: relative;
+        left: 200px;
+
+}
+}
