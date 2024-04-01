@@ -6,6 +6,7 @@
 header {
     background-color:#6f00ff
 }
+
  header h1 {
     font-size: 60px;
     font-weight: 500;
@@ -88,9 +89,54 @@ color: #6f00ff;
     background-color: #ffd5a5
 }
 
+.contact-links:focus {
+    color:#047500;
+    background-color:#e1caff;
+}
+
 #portfolioimg {
     position: relative;
     left: 450px;
     width: 35%;
     height: 35%;
+}
+
+@media screen and (max-width: 992px) {
+    header h1,
+    header nav,
+    nav ul,
+    nav ul li {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        position: relative;
+        left: 300px;
+    }
+
+    nav ul,
+    nav ul li {
+        justify-content: center;
+        position: relative;
+        left: 100px;
+    }
+
+    .bigimg {
+        position:relative;
+        left: 200px;
+    }
+    
+    .smallimg {
+        position: relative;
+        left: 50px;
+        margin-right: 100px;
+    }
+
+    #portfolioimg {
+        position: relative;
+        left: 350px
+    }
+
+    
 }
