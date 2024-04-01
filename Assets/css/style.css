@@ -3,17 +3,26 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
+header {
+    background-color:#6f00ff
+}
+ header h1 {
     font-size: 60px;
     font-weight: 500;
-    background-color:#d4b3ff;
+    display: inline;
+    background-color: #6f00ff;
+}
+
+header nav {
+    background-color: #6f00ff;
+    display: inline;
 }
 
 nav ul {
-    padding: 20px;
-    background-color:#6f00ff;
     position: relative;
-    bottom: 40px;
+    bottom: 10px;
+    display: inline;
+    background-color: #6f00ff;
 }
 
 nav ul li {
@@ -21,10 +30,11 @@ nav ul li {
     text-align: right;
     justify-content: space-between;
     position: relative;
-    left: 875px;
+    left: 350px;
     font-size: 35px;
     border: 2px #000000 solid;
-    padding: 10px;
+    margin-right: 60px;
+    padding: 5px;
 }
 
 nav ul li a {
@@ -36,6 +46,8 @@ nav ul li a {
 h2 {
     font-size: 50px;
     font-weight: 400;
+    text-decoration: underline;
+    background-color: #047500;
 }
 
 p {
@@ -66,10 +78,14 @@ section img {
 }
 
 .contact-links{
-position: relative;
-padding-left: 300px;
 justify-content: space-between;
 font-size: 20px;
+margin: 20px;
+color: #6f00ff;
+}
+
+.contact-links:hover{
+    background-color: #ffffff
 }
 
 #portfolioimg {
