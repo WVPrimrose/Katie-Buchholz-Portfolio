@@ -111,6 +111,7 @@ color: #6f00ff;
     }
 
     header h1 {
+        background-color: #e4e4e4;
         position: relative;
         left: 300px;
     }
@@ -135,8 +136,37 @@ color: #6f00ff;
 
     #portfolioimg {
         position: relative;
-        left: 350px
+        left: 350px;
     }
 
     
+}
+
+@media screen and (max-width: 768px) {
+header h1 {
+    position: relative;
+    left: 200px;
+}
+
+nav ul,
+nav ul li {
+        position: relative;
+        left: 50px;
+    }
+
+    .bigimg {
+        position:relative;
+        left: 100px;
+    }
+    
+    .smallimg {
+        position: relative;
+        left: 25px;
+        margin-right: 50px;
+    }
+
+    #portfolioimg {
+        position: relative;
+        left: 250px;
+    }    
 }
